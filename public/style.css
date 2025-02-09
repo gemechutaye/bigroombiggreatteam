@@ -1,0 +1,93 @@
+/* style.css */
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-family: 'Merriweather', serif;
+  }
+  
+  .card {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .progress {
+    background-color: #e9ecef;
+  }
+  
+  .progress-bar {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .btn {
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover, .btn-success:hover {
+    opacity: 0.85;
+  }
+  
+  #gallery .gallery-item {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item {
+    margin-bottom: 20px;
+  }
+
+  .gallery-item .card {
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+
+  .gallery-item .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .gallery-item .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .gallery-item .card-body {
+    padding: 1rem;
+  }
+
+  .gallery-item .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-text {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .gallery-item img {
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  .modal-body {
+    background-color: #f8f9fa;
+  }
